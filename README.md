@@ -7,7 +7,7 @@
 运行条件：
 python3
 库：
-qqmusicapi 网址https://github.com/MeiK2333/QQMusicAPI，
+qqmusicapi 网址https://github.com/MeiK2333/QQMusicAPI       ，
 re，
 requests，
 json，
