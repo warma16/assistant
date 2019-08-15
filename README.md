@@ -7,16 +7,16 @@
 运行条件：
 python3
 库：
-qqmusicapi 网址https://github.com/MeiK2333/QQMusicAPI
-re
-requests
-json
-urllib
-sys
-ssl
-math
-time
-playsound
+qqmusicapi 网址https://github.com/MeiK2333/QQMusicAPI，
+re，
+requests，
+json，
+urllib，
+sys，
+ssl，
+math，
+time，
+playsound，
 
 #### 安装教程
 1.安装好上面这些库
