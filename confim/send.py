@@ -11,7 +11,7 @@ import confim.mus as mus
 import confim.search as baidu
 import uuid
 import confim.turing as bot2
-import confim.update as update
+
 def get_mac_add():
     mac=uuid.UUID(int = uuid.getnode()).hex[-12:]
     return ','.join([mac[e:e+2] for e in range(0,11,2)])
@@ -103,8 +103,7 @@ def emotion_u(text,ac):
             make_voice('查看网页，请点击下面链接',show=True)
             print(d1[i])
             print('--------------------------')
-    if '升级' in text:
-        update.update()   
+  
     mcl={'下一首':1,'上一首':2,'听':3}
     for i in mcl:
         if i in text:
