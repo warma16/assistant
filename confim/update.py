@@ -75,4 +75,4 @@ def update():
             print('['+i*'|'+']'+str(i*10)+'%',end="\r")
         os.chdir(path+'/assistant')
         os.system('python3 chat-bot.py')        
-    
+update()    
