@@ -25,7 +25,7 @@ def healtht(x):
 def healthr(x):   
         for i in range(0,25):
             time.sleep(60)
-        make_voice('该休息了，同志。',show=True)
+        make_voice('该休息了，同志。舒活舒活筋骨，抖擞抖擞精神。',show=True)
         playsound(os.getcwd()+'/ring/rest.mp3')
         for i in range(0,5):
             time.sleep(60)
