@@ -1,5 +1,7 @@
 # assistant
 
+此项目不再维护，yueiuieui是我之前的另一个号
+
 #### 介绍
 简单高效的助手
 
@@ -16,7 +18,10 @@ sys，
 ssl，
 math，
 time，
-playsound，
+pygame，
+pydub，
+cv2，
+easygui,
 
 #### 安装教程
 1.安装好上面这些库
